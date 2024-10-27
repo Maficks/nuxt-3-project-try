@@ -13,6 +13,7 @@ h1 {
 .centreDiv {
   justify-content: center;
   display: flex;
+  align-items: center;
 }
 </style>
 <script setup lang="ts"></script>
