@@ -32,9 +32,5 @@ body {
   margin-top: 0;
   margin-bottom: 0;
 }
-NuxtLayout {
-  position: absolute;
-  top: 100px;
-}
 </style>
 <script setup lang="ts"></script>
