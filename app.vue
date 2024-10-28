@@ -1,19 +1,26 @@
 <template>
-  <NuxtLayout>
-    <div class="centreDiv">
-      <NuxtPage />
-      <h1>КРАСИВЫЙ ТЕКСТ))</h1>
-    </div>
-  </NuxtLayout>
+  <body>
+    <NuxtLayout>
+      <div class="centreDiv">
+        <h1><NuxtPage /></h1>
+      </div>
+    </NuxtLayout>
+  </body>
 </template>
 
 <style scoped>
 * {
   font-family: "Montserrat", sans-serif;
 }
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
 .centreDiv {
   position: relative;
   height: 93.6vh;
+  perspective: 500px;
 }
 .centreDiv h1 {
   position: absolute;
@@ -21,6 +28,12 @@
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+NuxtLayout {
+  position: absolute;
+  top: 100px;
 }
 </style>
 <script setup lang="ts"></script>
