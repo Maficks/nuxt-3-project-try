@@ -33,4 +33,6 @@ body {
   margin-bottom: 0;
 }
 </style>
-<script setup lang="ts"></script>
+<script setup lang="ts">
+
+</script>
